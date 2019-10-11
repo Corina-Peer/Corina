@@ -6,4 +6,4 @@ Das Programm soll mir ermöglichen die Einteilung fürs Running Dinner zu erleic
 
 ## Flussdiagramm
 
-![flow diagramm](dbm3/diagramm.jpg "flow diagramm")
+![flow diagramm](diagramm.jpg "flow diagramm")
