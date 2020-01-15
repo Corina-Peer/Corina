@@ -1,0 +1,341 @@
+@font-face {
+
+	font-family: "montserratblack";
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+         url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+
+	font-family: 'montserratblack_italic';
+    src: url('montserrat-blackitalic-webfont.woff2') format('woff2'),
+         url('montserrat-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* HTML allgemein
+
+ ========================================================================== */
+
+html {
+
+  /* 1 */
+
+  font: normal 14px / 20px 'montserratblack italic';
+
+  /* 2 */
+
+  -webkit-text-size-adjust: 100%;
+
+  -ms-text-size-adjust: 100%;
+
+  /* 3 */
+
+  background: #ffffff;
+
+  color: #363533;
+
+}
+
+
+
+
+
+/* NAVIGATION
+
+ ========================================================================== */
+
+header {
+
+	width: 100%;
+
+	text-align: center;
+
+  	font-size: 90px; 
+
+  	font-weight: bold;
+
+  	position: fixed;
+
+  	top: 0;
+
+  	transition: 0.2s;
+
+    z-index: 99;
+
+}
+
+
+
+
+
+
+
+.container {
+    font-size: 25px;
+
+	font-weight: 800;
+}
+
+
+
+
+
+
+/* BODY
+
+ ========================================================================== */
+
+body {
+
+	
+
+	background-size: contain;
+
+	font-size: 18px;
+
+	align-content: center;
+
+	padding: 0 !important;
+
+}
+
+
+
+/* Custom Inhalt
+
+ ========================================================================== */
+
+.card {
+
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.start {
+
+    min-height: 260px;
+
+    text-align: center;
+
+}
+
+.start h2 {
+
+    font-size: 23px;
+
+    line-height: 23px;
+
+}
+
+.start a {
+
+    position: absolute;
+
+    bottom: 10px;
+
+    right: 15px;
+
+    font-size: 16px;
+
+    font-family: 'montserratblack italic';
+
+}
+
+.col-sm-12 {
+
+	margin-top: 10%;
+
+	margin-bottom: 10%;
+
+	padding: 20px;
+
+	background: rgba(255,255,255,0.9);
+
+	border-radius: 20px;
+
+}
+
+table {
+
+	width: 100%;
+
+}
+
+th {
+
+    border: 1px solid black;
+
+    padding:10px 5px;
+
+    background-color:#ffe02f;
+
+    color:#333333
+
+}
+
+td {
+
+    border: 1px solid black;
+
+    padding: 5px;
+
+}
+
+.group {
+
+    float: left;
+
+    margin: 10px;
+
+    border: 1px solid black;
+
+    border-radius: 9px;
+
+    padding: 7px;
+
+    width: calc(33% - 17px);
+
+    text-align: center;
+
+    min-height: 365px;
+
+}
+
+button {
+
+    font-family: 'montserratblack italic';
+
+}
+
+button#teamsubmit {
+
+    float: right;
+
+    font-size: 19px;
+
+}
+
+
+
+
+
+/* CONTAINER
+
+ ========================================================================== */
+
+.container {
+
+    margin-top: 75px;
+
+}
+
+
+
+/* Links
+
+ ========================================================================== */
+
+a, .link {
+
+  color: #363533;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
+
+a:hover, .link:hover {
+
+  color: white;
+
+  text-decoration: underline;
+
+}
+
+
+
+/* Headings
+
+ ========================================================================== */
+
+h1, h2 {
+
+  margin: 20px;
+
+  font-family: 'montserratblack italic';
+
+  color: #363533;
+
+}
+
+* + h1, * + h2 {
+
+	margin-top: 25px;
+
+}
+
+h1 {
+
+  font-size: 40px;
+
+  line-height: 40px;
+
+    text-align: center;
+
+}
+
+h2 {
+
+  font-size: 32px;
+
+  line-height: 40px;
+
+}
+
+p {
+
+	font: 'montserratblack italic';
+
+	padding: inherit;
+
+    padding-top: 0;
+
+    padding-bottom: 0;
+
+}
+
+
+
+/* Footer
+
+ ========================================================================== */
+
+
+
+.footer {
+
+
+	background-repeat: no-repeat;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+	text-align: center;
+
+	float: inherit;
+
+}
+
+
