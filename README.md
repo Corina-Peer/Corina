@@ -10,7 +10,7 @@ Das Programm soll mir ermöglichen die Einteilung fürs Running Dinner zu erleic
 
 # Anforderungen
 
-- Excel Dokument einlesen
+- Daten eingeben
 - Teams in 3er Gruppen einteilen (je für Vorspeise, Hauptspeise und Dessert)
 - Gruppen ausgeben
 
